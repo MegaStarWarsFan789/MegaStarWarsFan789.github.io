@@ -8,7 +8,7 @@ a{
 
 }
 
-a:visited {
+p a:visited {
 	color: blue;
 	}
 #footer{
