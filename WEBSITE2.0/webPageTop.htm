@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>MegaStarWarsFan789</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet">
+
+
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&display=swap" rel="stylesheet">
+</head>
+<style>
+body{
+	background-color:rgb(0,0,0);
+}
+
+h1{
+	font-family: 'Amatic SC', cursive;
+	font-weight: bold;
+	font-size:100px;
+	color:rgb(255,255,255);
+	text-align:center;
+	
+	
+	
+}
+
+.scrolled.fade-in-bottom {
+    animation: fade-in-bottom 0.5s ease-in-out both;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: both;
+    animation-play-state: running;
+    animation-name: fade-in-bottom;
+}
+
+
+hr{
+	color:rgb(255,255,255);
+}
+
+#nav{
+	width: 100%;
+	margin:0px;	
+	display:block;
+    color:rgb(255, 255, 255);
+    text-align:center;
+	font-family: 'Amatic SC', cursive;
+	color:rgb(255,255,255);
+	font-size:30px;
+}
+
+
+:root {
+  --clr-neon: hsl(317 100% 54%);
+  --clr-bg: hsl(323 21% 16%);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+/*
+body {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  background: var(--clr-bg);
+  font-family: "Balsamiq Sans", cursive;
+  color: var(--clr-neon);
+  padding-right: 10rem;
+}*/
+
+.neon-button {
+  font-size: 2rem;
+	margin:30px;
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+  color: var(--clr-neon);
+  border: var(--clr-neon) 0.125em solid;
+  padding: 0.25em 1em;
+  border-radius: 0.25em;
+
+  text-shadow: 0 0 0.125em hsl(0 0% 100% / 0.3), 0 0 0.45em currentColor;
+
+  box-shadow: inset 0 0 0.5em 0 var(--clr-neon), 0 0 0.5em 0 var(--clr-neon);
+
+  position: relative;
+}
+
+.neon-button::before {
+  pointer-events: none;
+  content: "";
+  position: absolute;
+  background: var(--clr-neon);
+  top: 120%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  transform: perspective(1em) rotateX(40deg) scale(1, 0.35);
+  filter: blur(1em);
+  opacity: 0.7;
+}
+
+.neon-button::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  box-shadow: 0 0 2em 0.5em var(--clr-neon);
+  opacity: 0;
+  background-color: var(--clr-neon);
+  z-index: -1;
+  transition: opacity 100ms linear;
+}
+
+.neon-button:hover,
+.neon-button:focus {
+  color: var(--clr-bg);
+  text-shadow: none;
+}
+
+.neon-button:hover::before,
+.neon-button:focus::before {
+  opacity: 1;
+}
+.neon-button:hover::after,
+.neon-button:focus::after {
+  opacity: 1;
+}
+
+
+</style>
+<body>
+<br><br><br>
+<h1>MegaStarWarsFan789's Website</h1>
+
+<div id="nav">
+
+<a href="#" class="neon-button">►Home◄</a>
+<a href="#" class="neon-button">About</a>
+<a href="#" class="neon-button">Art</a>
+<a href="#" class="neon-button">Photos</a>
+<a href="#" class="neon-button">Poems</a>
+</div>
+<br><br><br><br>
+<hr style="width:75%">
+
+</body>
+</html>
